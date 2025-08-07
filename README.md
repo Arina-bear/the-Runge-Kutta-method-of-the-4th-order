@@ -12,6 +12,8 @@ The "Schemes" class stores attributes of the numerical method
 for solving the system of equations of motion.
 Such attributes include all coefficients of this method, the time step.
 
+The header files describe the class bodies, and the cpp file shows the main time loop.
+
 #Statement of the problem
 Let there be n1 molecules of uncharged fullerene C60, consisting of n2 = n1·60 carbon atoms, in a representative cube with a side of 10 nm. Due to their large molecular radius, fullerenes have both translational and rotational motion components. We also assume that the bond length in fullerene between carbon atoms is fixed and is equal to 0.144±0.001 nm or 0.139±0.001, depending on the type of this bond. Van der Waals forces are present between the molecules, which are taken into account in the interaction potential.
 
